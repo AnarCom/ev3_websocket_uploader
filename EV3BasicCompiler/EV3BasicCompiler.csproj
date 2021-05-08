@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Matrix.txt" />
+    <Content Include="Resources\BitMask.txt" />
+    <Content Include="Resources\MotorAB.txt" />
+    <Content Include="Resources\MotorAC.txt" />
+    <Content Include="Resources\MotorAD.txt" />
+    <Content Include="Resources\MotorB.txt" />
+    <Content Include="Resources\MotorBC.txt" />
+    <Content Include="Resources\MotorBD.txt" />
+    <Content Include="Resources\MotorC.txt" />
+    <Content Include="Resources\MotorCD.txt" />
+    <Content Include="Resources\MotorD.txt" />
+    <Content Include="Resources\Row.txt" />
+    <Content Include="Resources\MotorA.txt" />
+    <Content Include="Resources\Sensor1.txt" />
+    <Content Include="Resources\Sensor2.txt" />
+    <Content Include="Resources\Sensor3.txt" />
+    <Content Include="Resources\Sensor4.txt" />
+    <Content Include="Resources\Time.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+</Project>
