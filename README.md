@@ -1,5 +1,7 @@
-# EV3Basic2
+# ev3_websocket_uploader
 
-Новая версия EV3 Basic, по мере сил и возможностей добавляются новые методы.
+This is future uploader for evcpp project. Now it is in development and you cannot use it in EvCpp extension.
 
-Оригинал - https://github.com/c0pperdragon/EV3Basic
+I getted source code from https://github.com/iCheh/EV3Basic2,
+
+but the original version is https://github.com/c0pperdragon/EV3Basic
